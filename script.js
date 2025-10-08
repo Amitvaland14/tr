@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours")
 const minsEl = document.getElementById("mins")
 const secEl = document.getElementById("sec")
 
-const birthday = "16 Sep 2024";
+const birthday = "16 Sep 2026";
 
 function countdown(){
     const birthDayDate = new Date(birthday);
@@ -22,4 +22,5 @@ function countdown(){
     secEl.innerHTML = seconds;
 }
 countdown();
+
 setInterval(countdown, 1000);
